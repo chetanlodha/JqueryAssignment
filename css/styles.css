@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+.container{
+    text-align: center;
+}
+.header{
+    text-align: center;
+    margin: 0.6em;
+}
+.grid{
+    padding: 0 0.5em;
+}
+.card{
+    margin-bottom: 1em;
+    border-radius: 10px;
+    box-shadow: #cccccc 0 5px 10px;
+    overflow: hidden;
+    transform: scale(0.95);
+    transition: 0.3s ease;
+}
+.card:hover{
+    transform: scale(0.99);
+}
+.options{
+    background-color: #f6f6f6;
+}
+.options span{
+    padding-top: 1em;
+    font-size: larger;
+}
+.options a{
+    padding: 1em 0;
+}
+:any-link:hover{
+    text-decoration: none;
+}
+.options a button{
+    background: transparent;
+    border: 1px solid rgba(105, 90, 205, 0.493);
+    border-radius: 5px;
+    color: slateblue;
+    background-color: rgba(105, 90, 205, 0.199);
+    padding: 1em;
+    transition: 0.5s ease;
+}
+.options a button:hover{
+    border-radius: 10px;
+}
